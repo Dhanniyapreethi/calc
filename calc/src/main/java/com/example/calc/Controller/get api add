@@ -1,0 +1,28 @@
+@GetMapping("/sub")
+    public int sub(){
+		System.out.println("sub");
+		int a=10;
+		 int b=20;
+		int c=a-b;
+		System.out.println("c=" +c); 
+return c;		
+    }
+	 @GetMapping("/mul")
+    public int mul(){
+		System.out.println("mul");
+		int a=10;
+		 int b=20;
+		int c=a*b;
+		System.out.println("c=" +c); 
+return c;	
+	}	
+ @GetMapping("/div")
+    public int div(){
+		System.out.println("div");
+		int a=10;
+		 int b=20;
+		int c=a%b;
+		System.out.println("c=" +c); 
+return c;		
+}
+ 
